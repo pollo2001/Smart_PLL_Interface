@@ -6,13 +6,15 @@
 
 ---
 
-### ⚙️ Overview
+### Overview
 This project demonstrates the **core architecture** of a real-time GUI used to interface with MCU-controlled PLL synthesizers.  
 The GUI layer runs asynchronously, handling command queues, serial polling, and sweep control while the MCU manages timing and RF loop operations.
 
+This framework was developed with reliability and timing practices aligned with high-performance RF systems used in aerospace and advanced communication applications.
+
 ---
 
-### 🧩 Framework Highlights
+### Framework Highlights
 - **Serial Communication:** auto-detect, safe connect/disconnect, non-blocking TX/RX  
 - **Threaded Control Layer:** independent polling and sweep threads  
 - **Synchronized Polling:** aligned with firmware timing; GUI never dictates pacing  
@@ -22,7 +24,7 @@ The GUI layer runs asynchronously, handling command queues, serial polling, and 
 
 ---
 
-### 🧱 Structure
+### Structure
 ```text
 Smart_PLL_Interface/
 │
@@ -34,7 +36,7 @@ Smart_PLL_Interface/
 
 ---
 
-### 🧪 Purpose
+### Purpose
 Educational reference for engineers or students learning:
 - GUI ↔ MCU synchronization
 - Serial communication and threading
@@ -42,6 +44,6 @@ Educational reference for engineers or students learning:
 
 ---
 
-### 🛡️ Disclaimer
+### Disclaimer
 This release is a **sanitized derivative** for demonstration and educational use only.  
 All proprietary firmware commands, hardware identifiers, and confidential data have been removed.
