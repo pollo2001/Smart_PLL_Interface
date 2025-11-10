@@ -1,5 +1,7 @@
-# Smart_PLL_Interface - Real Time-Control and Monitoring-GUI
+# **Smart_PLL_Interface**
+### Real-Time Control and Monitoring GUI
 
+---
 **NDA-compliant educational release** of the framework designed for Z-Communications’ line of **Smart SSG PLL products**, providing a cross-compatible, Python-based GUI for serial control and monitoring.
 
 ---
