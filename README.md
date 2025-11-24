@@ -2,13 +2,13 @@
 ### Real-Time Control and Monitoring GUI
 
 ---
-**NDA-compliant educational release** of the framework designed for Z-Communications’ line of **Smart SSG PLL products**, providing a cross-compatible, Python-based GUI for serial control and monitoring.
+**NDA-compliant educational release** of the framework designed for Z-Communications’ line of **Smart SSG PLL products**, providing a cross-compatible, Python-based GUI for serial control and monitoring, with significant portions redacted or sanitized to comply with NDA and educational guidelines.
 
 ---
 
 ### Overview
 This project demonstrates the **core architecture** of a real-time GUI used to interface with MCU-controlled PLL synthesizers.  
-The GUI layer runs asynchronously, handling command queues, serial polling, and sweep control while the MCU manages timing and RF loop operations.
+The GUI layer runs asynchronously, handling command queues, serial polling, and sweep control, while the MCU manages timing and RF loop operations.
 
 This framework was developed with reliability and timing practices aligned with high-performance RF systems used in aerospace and advanced communication applications.
 
